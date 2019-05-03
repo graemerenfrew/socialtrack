@@ -19,6 +19,6 @@ def create_app():
 
         :return: Flask response
         """
-        return 'Hello World! G'
+        return app.config['HELLO']
 
     return app
