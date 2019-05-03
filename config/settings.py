@@ -1,3 +1,3 @@
 DEBUG = True
 
-HELLO = 'Hello World?'
+HELLO = 'Hello sWorld?'

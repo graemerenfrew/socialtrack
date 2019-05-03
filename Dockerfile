@@ -1,5 +1,5 @@
 FROM python:2.7-slim
-MAINTAINER Nick Janetakis <nick.janetakis@gmail.com>
+MAINTAINER Graeme Renfrew <graemerenfrew@gmail.com>
 
 ENV INSTALL_PATH /socialtrack
 RUN mkdir -p $INSTALL_PATH
