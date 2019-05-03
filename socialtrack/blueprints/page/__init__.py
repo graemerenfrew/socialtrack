@@ -1,1 +1,1 @@
-from snakeeyes.blueprints.page.views import page
+from socialtrack.blueprints.page.views import page
