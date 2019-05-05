@@ -4,3 +4,6 @@ https://app.logopony.com/en/details/
 
 Leacture 49 040519
 creating a contact form
+
+Lecture 59 050519
+Created the contact form an implemented tests.  Would be a good point to branch from here if I just want a basic app
