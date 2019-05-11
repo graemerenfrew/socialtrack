@@ -5,7 +5,7 @@ from flask import (
     request,
     url_for,
     render_template)
-
+from flask_login import current_user
 from socialtrack.blueprints.contact.forms import ContactForm
 
 contact = Blueprint('contact', __name__, template_folder='templates')
@@ -13,7 +13,7 @@ contact = Blueprint('contact', __name__, template_folder='templates')
 
 @contact.route('/contact', methods=['GET', 'POST'])
 def index():
-    form = ContactForm()
+    form = ContactForm(obj=current_user) #send this in to autocomplete the email address
 
     if form.validate_on_submit():
         # This prevents circular imports.

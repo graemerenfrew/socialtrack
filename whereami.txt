@@ -7,3 +7,9 @@ creating a contact form
 
 Lecture 59 050519
 Created the contact form an implemented tests.  Would be a good point to branch from here if I just want a basic app
+
+lecture 67 4:25 060519
+The line form.populate_obj(u)  is a line which lets us populate the u object with the contents of fields from a form
+This will be handy to remember
+
+Stopped at Lecture 68 start of
